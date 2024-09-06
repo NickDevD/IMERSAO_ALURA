@@ -21,13 +21,13 @@ header{
 }
 /*Determina o tamanho da imagem*/
 header img{
-    width: 60px;
-    height: 60px;    
+    width: 80px;
+    height: 80px;    
 }
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
+    font-size: 4rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
