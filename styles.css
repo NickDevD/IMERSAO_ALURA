@@ -12,7 +12,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-    background-image: url(/libs/clapper\ icon.webp);
+    background-image: none;
     background-repeat: no-repeat;
     background-size: none;
     background-position: none;
@@ -119,8 +119,8 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
+    background-color: #0d1c24; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
@@ -128,6 +128,20 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
+
+/* Estiliza a página adicionando um vídeo no background*/
+#myVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
 
 @media (max-width: 768px) {
     h1 {

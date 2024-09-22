@@ -40,7 +40,7 @@ function pesquisar(){
     }
     
     if (!resultados) {
-        resultados = "<p>Filme não localizado😬"
+        resultados = "Filme não localizado😬"
         
     }
     section.innerHTML = resultados;
